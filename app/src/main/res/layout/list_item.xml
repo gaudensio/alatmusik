@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTanggalOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Order"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvIdTransaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Transaksi"
+
+            />
+        <TextView
+            android:id="@+id/tvIdUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id User"
+            android:layout_below="@id/tvIdTransaksi"
+            />
+        <TextView
+            android:id="@+id/tvIdAlat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Alat"
+            android:layout_below="@id/tvIdUser"
+            />
+        <TextView
+            android:id="@+id/tvTotalHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total Harga"
+            android:layout_below="@id/tvIdAlat"
+            />
+
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+</LinearLayout>
+
