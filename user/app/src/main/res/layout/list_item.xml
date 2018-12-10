@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_white"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/merk"
+            android:text="Yamaha 789"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_toStartOf="@+id/kondisi"
+            android:textColor="@color/colorBlueJeans"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kondisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:hint="Kondisi"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorBlueJeans" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:background="@drawable/th"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/gambar"
+            android:layout_below="@+id/kondisi"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/colorBlueJeans" />
+
+
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gambar"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_primary_bg"
+            android:hint="Harga"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlueJeans" />
+
+</RelativeLayout>

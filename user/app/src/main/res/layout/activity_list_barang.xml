@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dongkerbcg"
+    tools:context=".list_barang">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:background="@drawable/home"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                />
+
+            <TextView
+                android:id="@+id/txtdashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toko Musik"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtdashboard"
+                android:layout_marginTop="6dp"
+                android:text="gitar, drum, bass"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <view class="android.support.v7.app.AlertController$RecycleListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </view>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
