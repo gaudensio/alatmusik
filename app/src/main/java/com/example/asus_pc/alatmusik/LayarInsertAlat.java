@@ -32,7 +32,7 @@ import retrofit2.Response;
 public class LayarInsertAlat extends AppCompatActivity {
     Context mContext;
     ImageView mImageView;
-    Button btAddPhotoId, btAddBack, btAddData;
+    Button btAddPhotoId, btAddBack, btAddData, btCamera;
     EditText edtAddNamaAlat, edtAddJenisAlat, edtAddHarga, edtAddLokasi, edtAddDeskripsi;
     TextView tvAddMessage;
     String imagePath = "";
@@ -54,6 +54,7 @@ public class LayarInsertAlat extends AppCompatActivity {
 
         btAddData = (Button) findViewById(R.id.btAddData);
         btAddBack = (Button) findViewById(R.id.btAddBack);
+        btCamera = findViewById(R.id.btCamera);
         tvAddMessage = (TextView) findViewById(R.id.tvAddMessage);
 
         btAddData.setOnClickListener(new View.OnClickListener() {

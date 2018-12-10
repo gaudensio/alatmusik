@@ -28,11 +28,20 @@
             android:layout_centerHorizontal="true"
             android:text="Pilih Foto" />
 
+        <Button
+            android:id="@+id/btCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btAddPhotoId"
+            android:text="Camera"
+            android:layout_centerHorizontal="true"
+            />
+
         <TextView
             android:id="@+id/tvAddNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btAddPhotoId"
+            android:layout_below="@+id/btCamera"
             android:layout_marginRight="50dp"
             android:text="Nama :"
             android:textSize="20dp"/>
